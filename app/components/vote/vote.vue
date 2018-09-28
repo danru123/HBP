@@ -1,13 +1,17 @@
 <template>
     <div class="box">
-        <h1>
+        <!-- <h1>
             我是投票
-        </h1>
+        </h1> -->
+        <curator></curator>
+        <!-- <curatorsuccess></curatorsuccess> -->
        <foot></foot> 
     </div>
 </template>
 
 <script>
+// import curatorsuccess from './curatorsuccess/curatorsuccess.vue'
+import curator from './curator/curator.vue'
 import foot from '../common/foot.vue'
 export default {
     data(){
@@ -15,6 +19,8 @@ export default {
         }
     },
     components:{
+        curator,
+        // curatorsuccess,
         foot
     }
 }

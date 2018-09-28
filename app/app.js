@@ -4,14 +4,14 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-// import VueResource from 'vue-resource'
+import VueResource from 'vue-resource'
 // import store from './store'
 import "babel-polyfill";
-// Vue.use(VueResource)
+Vue.use(VueResource)
 Vue.config.productionTip = false
-import VueMaterial from 'vue-material'
-import 'vue-material/dist/vue-material.css'
-Vue.use(VueMaterial)
+// import VueMaterial from 'vue-material'
+// import 'vue-material/dist/vue-material.css'
+// Vue.use(VueMaterial)
 
 /* eslint-disable no-new */
 new Vue({

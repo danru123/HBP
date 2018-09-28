@@ -10,6 +10,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "v-animate-css": "^0.0.2",
     "vue": "^2.5.11",
     "vue-material": "^1.0.0-beta-10.2",
     "vue-router": "^3.0.1",
@@ -30,10 +31,15 @@
     "css-loader": "^0.28.7",
     "exports-loader": "^0.7.0",
     "file-loader": "^1.1.4",
+<<<<<<< HEAD
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "script-loader": "^0.7.2",
+=======
+    "jquery": "^1.12.3",
+>>>>>>> d7315c7f936445fb3cbff20b9a7cdfc4e13c40e3
     "vue-loader": "^13.0.5",
+    "vue-resource": "^1.5.1",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"

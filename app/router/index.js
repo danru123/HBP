@@ -24,7 +24,11 @@ export default new Router({
     {
       path: '/vote',
       name: '投票',
-      component: require('../components/vote/vote.vue').default
+      component: require('../components/vote/vote.vue').default,
+    },
+    {
+      path:'/vote/failed_vote',
+      component: require('../components/vote/failed_vote/failed_vote.vue').default,
     },
     {
       path: '/review',

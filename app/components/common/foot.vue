@@ -46,11 +46,12 @@ export default {
         color: #666;
     }
     .foot{
-        position: absolute;
+        position: fixed;
         bottom: 0;
         width: 100%;
         height: 50px;
         line-height: 50px;
         background: #f5f5f5;
+        z-index: 999;
     }
 </style>

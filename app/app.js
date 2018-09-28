@@ -9,9 +9,9 @@ import router from './router'
 import "babel-polyfill";
 // Vue.use(VueResource)
 Vue.config.productionTip = false
-import VueMaterial from 'vue-material'
-import 'vue-material/dist/vue-material.css'
-Vue.use(VueMaterial)
+// import VueMaterial from 'vue-material'
+// import 'vue-material/dist/vue-material.css'
+// Vue.use(VueMaterial)
 
 /* eslint-disable no-new */
 new Vue({

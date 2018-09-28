@@ -1,17 +1,5 @@
 <template>
     <div class="box">
-<<<<<<< HEAD
-        <h1 @click="routerGo('/vote/failed_vote')">
-=======
-<<<<<<< HEAD
-        <!-- <h1>
->>>>>>> 7bff5f02c5fa05846004f5ee4931db45c33b579e
-            我是投票
-        </h1> -->
-        <curator></curator>
-        <!-- <curatorsuccess></curatorsuccess> -->
-       <foot></foot> 
-=======
         <div class="content">
             <div class="container">
                 <div class="title">
@@ -27,22 +15,17 @@
 
                 <p style="letter-spacing:0.2rem">受邀的专业媒体投票通道，分值权重85%。</p>
                 
-                
                 <router-link to="/verify" tag="div" class="public btn">
                 <span>大众评审</span></router-link>
                 <router-link to="/verify" tag="div" class="media btn">
                 <span>媒体评审</span></router-link>
-
             </div>
         </div>
         <foot></foot> 
->>>>>>> fd7057bfda264da6abfce596ba01623dec11c921
     </div>
 </template>
 
 <script>
-// import curatorsuccess from './curatorsuccess/curatorsuccess.vue'
-import curator from './curator/curator.vue'
 import foot from '../common/foot.vue'
 export default {
     data(){
@@ -55,8 +38,6 @@ export default {
         }
     },
     components:{
-        curator,
-        // curatorsuccess,
         foot
     }
 }

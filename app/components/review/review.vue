@@ -126,7 +126,7 @@ export default {
     }
     .pop{
         width: 100%;
-        height: 9rem;
+        height: 5rem;
         position: relative;
         background-size:cover;
         background: #52caec;
@@ -158,7 +158,7 @@ export default {
         width: 100%;
         position: relative;
         margin: 0 auto;
-        top: -6rem;
+        top: -3rem;
     }
     .top h1{
         color: #e4dcd3;
@@ -194,6 +194,13 @@ export default {
         display: block;
         width: 100%;
         height: 100%;
+    }
+    .main ul li{
+        width: 33.33%;
+        float: left;
+        position: relative;
+        top:1.89rem;
+        overflow: hidden;
     }
     .main ul li img{
         display: block;

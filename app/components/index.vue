@@ -11,8 +11,10 @@
             <p class="rote">入围作品线上投票</p>
             <p class="start">正式开始</p>
         </div>
-        <div id="global_scroll">
-            <img src="../../assets/scroll.png" alt="">
+        <div class="ball">
+            <div id="global_scroll">
+                <img src="../../assets/scroll.png" alt="">
+            </div>
         </div>
     </div>
     
@@ -166,5 +168,12 @@ export default {
         left: 50%;
         transform: translate(-50%);
     }
-    
+    .ball{
+        width:100%;
+        height: 6rem;
+        position: absolute;
+        bottom: 0;
+        background:url('../../assets/01_06_01.gif') no-repeat;
+        background-size: 100% 100%;
+    }
 </style>

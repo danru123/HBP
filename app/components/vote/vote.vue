@@ -15,18 +15,10 @@
 
                 <p style="letter-spacing:0.2rem">受邀的专业媒体投票通道，分值权重85%。</p>
                 
-<<<<<<< HEAD
-                
-=======
->>>>>>> d7315c7f936445fb3cbff20b9a7cdfc4e13c40e3
                 <router-link to="/verify" tag="div" class="public btn">
                 <span>大众评审</span></router-link>
                 <router-link to="/verify" tag="div" class="media btn">
                 <span>媒体评审</span></router-link>
-<<<<<<< HEAD
-
-=======
->>>>>>> d7315c7f936445fb3cbff20b9a7cdfc4e13c40e3
             </div>
         </div>
         <foot></foot> 

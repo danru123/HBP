@@ -34,11 +34,7 @@ export default {
 </script>
 
 <style scoped>
-<<<<<<< HEAD
     ul.foot{
-=======
-    ul{
->>>>>>> d7315c7f936445fb3cbff20b9a7cdfc4e13c40e3
         list-style: none;
         position: absolute;
         bottom: 0;
@@ -59,18 +55,7 @@ export default {
         color: #666;
         font-size: 0.8rem;
     }
-<<<<<<< HEAD
     ul.foot li a.cur{
         color:#52caec;
-=======
-    .foot{
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        height: 50px;
-        line-height: 50px;
-        background: #f5f5f5;
-        z-index: 999;
->>>>>>> d7315c7f936445fb3cbff20b9a7cdfc4e13c40e3
     }
 </style>

@@ -23,7 +23,6 @@
 <script>
 // import $ from 'zepto'
 export default {
-<<<<<<< HEAD
     data(){
         return {
             startY:null,
@@ -41,9 +40,6 @@ export default {
             this.startY=e.touches[0].clientY;
         }
     }
-=======
-    
->>>>>>> d7315c7f936445fb3cbff20b9a7cdfc4e13c40e3
 }
 </script>
 

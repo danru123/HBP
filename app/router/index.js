@@ -1,3 +1,5 @@
+var babelpolyfill = require("babel-polyfill");
+
 import Vue from 'vue'
 import Router from 'vue-router'
 
@@ -24,16 +26,40 @@ export default new Router({
     {
       path: '/vote',
       name: '投票',
-      component: require('../components/vote/vote.vue').default
+      component: require('../components/vote/vote.vue').default,
+      // children:[
+      //   {
+      //     path:"/vote/detail",
+      //     name:"详情",
+      //     component:require('../components/vote/detail/det.vue').default
+      //   }
+      // ]
+    },
+    {
+      path:"/detail",
+      name:"详情",
+      component:require('../components/vote/detail/det.vue').default,
+      children:[
+        {
+          path:"/vote/detail/introduce",
+          name:"介绍",
+          component:require('../components/vote/detail/introduce/introduce.vue').default
+        },
+        {
+          path:"/vote/detail/production",
+          name:"作品",
+          component:require('../components/vote/detail/production/production.vue').default
+        }
+      ]
     },
     {
       path: '/review',
       name: '评审',
       component: require('../components/review/review.vue').default
     },
-    {
-      path: '*',
-      redirect: '/'
-    }
+    // {
+    //   path: '*',
+    //   redirect: '/index'
+    // }
   ]
 })

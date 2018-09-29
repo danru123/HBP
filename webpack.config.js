@@ -1,3 +1,5 @@
+var babelpolyfill = require("babel-polyfill");
+
 var path = require('path')
 var webpack = require('webpack')
 

@@ -38,9 +38,20 @@ module.exports = {
         options: {
           name: '[name].[ext]?[hash]'
         }
+      },
+      {
+        test: require.resolve('zepto'),
+        loader: 'exports-loader?window.Zepto!script-loader' 
       }
     ]
   },
+  // 全局引入
+  plugins: [
+    new webpack.ProvidePlugin({
+        $: 'zepto',
+        Zepto: 'zepto'
+    })
+  ],
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.esm.js'
